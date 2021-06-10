@@ -1,0 +1,6 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{display: flex; justify-content: center; align-items: 100vh; background: black;}
+.player{position: relative; width: 500px; background: black; margin-left: 585px; text-align: center;}
+.player .imgBx{position: relative; width: 100%; height: 500px;  margin-bottom: 50px;}
+.player .imgBx img{position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 300px;}
+.player audio {width: 80%; outline: none; }
